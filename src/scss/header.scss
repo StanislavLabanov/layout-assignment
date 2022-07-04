@@ -1,0 +1,44 @@
+@import "type.scss";
+
+header {
+   position: relative;
+   padding: 5vh 0 4vh 0;
+   border-bottom: 1px solid #e0e0e0;
+
+   nav {
+      ul {
+         @include flex(space-between, center);
+
+         li {
+            @include text(0.9vw, 500, center);
+            text-transform: uppercase;
+            cursor: pointer;
+            position: relative;
+            transition: color 0.25s;
+         }
+
+         li:hover {
+            color: $clr3;
+         }
+
+         li:not(:first-child):hover:before {
+            transform: scaleX(1);
+            transition: transform 0.25s;
+            transform-origin: left;
+         }
+
+         li:not(:first-child):before {
+            content: '';
+            width: 100%;
+            height: 0.1vh;
+            background-color: $clr3;
+            position: absolute;
+            left: 0;
+            bottom: -1vh;
+            transition: transform 0.25s;
+            transform-origin: right;
+            transform: scaleX(0);
+         }
+      }
+   }
+}

@@ -1,0 +1,2302 @@
+@charset "UTF-8";
+.contacts_and_price_block .phone .phone_time_working, .contacts_and_price_block .messengers .messengers_title .messengers_title_text, .contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text {
+  font-size: 0.7vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.basic_information .about_questions .about_questions_text, .basic_information .pluses ul li {
+  font-size: 0.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contacts_and_price_block .phone .phone_call, .contacts_and_price_block .price_list .price_list_download {
+  font-weight: 600;
+  font-size: 0.7vw;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.wrapper {
+  width: 100%;
+  height: 150%;
+  background: url("../../images/BG.png") no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  position: relative;
+}
+.wrapper .conteiner {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.wrapper span {
+  font-weight: 700;
+}
+.wrapper .nav_right {
+  display: none;
+}
+
+.contacts_and_price_block .phone .phone_time_working, .contacts_and_price_block .messengers .messengers_title .messengers_title_text, .contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text {
+  font-size: 0.7vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.basic_information .about_questions .about_questions_text, .basic_information .pluses ul li {
+  font-size: 0.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contacts_and_price_block .phone .phone_call, .contacts_and_price_block .price_list .price_list_download {
+  font-weight: 600;
+  font-size: 0.7vw;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+header {
+  position: relative;
+  padding: 5vh 0 4vh 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav ul li {
+  font-size: 0.9vw;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+header nav ul li:hover {
+  color: #F38120;
+}
+header nav ul li:not(:first-child):hover:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
+  transition: transform 0.25s, -webkit-transform 0.25s;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+header nav ul li:not(:first-child):before {
+  content: "";
+  width: 100%;
+  height: 0.1vh;
+  background-color: #F38120;
+  position: absolute;
+  left: 0;
+  bottom: -1vh;
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
+  transition: transform 0.25s, -webkit-transform 0.25s;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.contacts_and_price_block .phone .phone_time_working, .contacts_and_price_block .messengers .messengers_title .messengers_title_text, .contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text {
+  font-size: 0.7vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.basic_information .about_questions .about_questions_text, .basic_information .pluses ul li {
+  font-size: 0.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contacts_and_price_block .phone .phone_call, .contacts_and_price_block .price_list .price_list_download {
+  font-weight: 600;
+  font-size: 0.7vw;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.contacts_and_price_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 5.5vh;
+}
+.contacts_and_price_block .burger {
+  display: none;
+}
+.contacts_and_price_block .brief_presentation {
+  margin-top: 3.5vh;
+}
+.contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text {
+  line-height: 1.2vw;
+}
+.contacts_and_price_block .brief_presentation .brief_presentation_botton_text {
+  margin-top: 1.5vh;
+}
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text {
+  margin-bottom: 1.5vh;
+}
+.contacts_and_price_block .phone,
+.contacts_and_price_block .messengers {
+  margin-top: 4vh;
+}
+.contacts_and_price_block .price_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6vh;
+}
+.contacts_and_price_block .price_list .price_list_circles_pdf {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.7vw;
+  font-weight: 600;
+  text-align: center;
+  color: #12C868;
+  cursor: pointer;
+  margin-right: 1.5vw;
+}
+.contacts_and_price_block .price_list .price_list_download {
+  color: #1C1C1C;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-underline-offset: 0.3vw;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+  -webkit-text-decoration-color: #12C868;
+          text-decoration-color: #12C868;
+  cursor: pointer;
+}
+.contacts_and_price_block .logo {
+  width: 20vw;
+  height: 30vh;
+  margin-top: -20px;
+}
+.contacts_and_price_block .logo img {
+  width: 20vw;
+  height: 30vh;
+}
+.contacts_and_price_block .messengers .messengers_title .messengers_title_text {
+  color: #1C1C1C;
+  margin-bottom: 2vh;
+  margin-left: 0.4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contacts_and_price_block .messengers .messengers_title .messengers_title_text .messengers_circle {
+  width: 4px;
+  height: 4px;
+  background-color: #12C868;
+  border-radius: 50%;
+  margin-right: 0.5vw;
+}
+.contacts_and_price_block .phone .phone_time_working {
+  color: #1C1C1C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contacts_and_price_block .phone .phone_time_working .square {
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 0.5vw;
+}
+.contacts_and_price_block .phone .phone_phone {
+  font-size: 1.2vw;
+  font-weight: 600;
+  text-align: center;
+  line-height: 2.5vw;
+  color: #1C1C1C;
+  letter-spacing: 0.05em;
+}
+.contacts_and_price_block .phone .phone_call {
+  letter-spacing: 0.04em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-underline-offset: 0.5vh;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+  color: #12C868;
+  cursor: pointer;
+}
+.contacts_and_price_block .messengers_flex_block {
+  margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contacts_and_price_block .messengers_flex_block a {
+  margin-right: 10px;
+}
+.contacts_and_price_block .messengers_flex_block a img {
+  width: 30px;
+  height: 30px;
+}
+.contacts_and_price_block .messengers_flex_block a:last-child {
+  margin-right: 0;
+}
+
+.contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text, .contacts_and_price_block .messengers .messengers_title .messengers_title_text, .contacts_and_price_block .phone .phone_time_working {
+  font-size: 0.7vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.basic_information .about_questions .about_questions_text, .basic_information .pluses ul li {
+  font-size: 0.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contacts_and_price_block .price_list .price_list_download, .contacts_and_price_block .phone .phone_call {
+  font-weight: 600;
+  font-size: 0.7vw;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text, .contacts_and_price_block .messengers .messengers_title .messengers_title_text, .contacts_and_price_block .phone .phone_time_working {
+  font-size: 0.7vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.basic_information .about_questions .about_questions_text, .basic_information .pluses ul li {
+  font-size: 0.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contacts_and_price_block .price_list .price_list_download, .contacts_and_price_block .phone .phone_call {
+  font-weight: 600;
+  font-size: 0.7vw;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.basic_information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.basic_information .pluses {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+  border-radius: 0 0 20px 20px;
+  width: 15vw;
+}
+.basic_information .pluses ul li {
+  line-height: 1.5vw;
+  color: #1C1C1C;
+  padding: 2.5vh 2vw;
+  margin: 0 auto;
+}
+.basic_information .pluses ul li:first-child {
+  padding-top: 14px;
+  position: relative;
+}
+.basic_information .pluses ul li:first-child .pluses_li_top .plusses_plus_block {
+  display: none;
+}
+.basic_information .pluses ul li:first-child .pluses_li_transcription {
+  display: none;
+}
+.basic_information .pluses ul li:last-child {
+  padding-bottom: 6vh;
+}
+.basic_information .pluses ul li:first-child::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(-96%) skewY(-175deg);
+          transform: translateY(-96%) skewY(-175deg);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  border-radius: 20px 20px 0 0;
+}
+.basic_information .title_action_buttons {
+  margin-left: 4vw;
+}
+.basic_information .title_action_buttons h1 {
+  font-size: 3.5vw;
+  font-weight: 300;
+  text-align: #1C1C1C;
+  line-height: 5vw;
+}
+.basic_information .title_action_buttons .montage_flex_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2vh 0 6vh 0;
+}
+.basic_information .title_action_buttons .montage_flex_block img {
+  margin-top: 1vh;
+}
+.basic_information .title_action_buttons .montage_flex_block .montage_flex_block_text {
+  font-size: 2.1vw;
+  font-weight: 400;
+  text-align: #1C1C1C;
+  margin-left: 1vw;
+}
+.basic_information .action_buttons_flex_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 6vh;
+}
+.basic_information .action_buttons_flex_block .calculation_button {
+  margin-right: 1vw;
+  background-color: #12C868;
+  width: 22vw;
+  height: 9vh;
+}
+.basic_information .action_buttons_flex_block .calculation_button,
+.basic_information .action_buttons_flex_block .record_button {
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 1.5vw;
+  text-align: center;
+  padding: 6vh 1.5vw;
+  -webkit-box-shadow: inset 0px 0px 22px rgba(255, 255, 255, 0.25);
+          box-shadow: inset 0px 0px 22px rgba(255, 255, 255, 0.25);
+  border-radius: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.basic_information .action_buttons_flex_block .calculation_button .text,
+.basic_information .action_buttons_flex_block .record_button .text {
+  margin-right: 2vw;
+  color: #fff;
+  line-height: 1.5vw;
+}
+.basic_information .action_buttons_flex_block .calculation_button img,
+.basic_information .action_buttons_flex_block .record_button img {
+  width: 20px;
+  height: 20px;
+}
+.basic_information .action_buttons_flex_block .record_button {
+  background-color: #F38120;
+  width: 20vw;
+  height: 9vh;
+}
+.basic_information .action_buttons_flex_block .calculation_button:hover {
+  background-color: #21E27C;
+}
+.basic_information .action_buttons_flex_block .record_button:hover {
+  background-color: #FD9C49;
+}
+.basic_information .about_questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.basic_information .about_questions .about_questions_text {
+  width: 16vw;
+  line-height: 1.6vw;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1C1C1C;
+  margin-left: 1vw;
+}
+
+.contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text, .contacts_and_price_block .messengers .messengers_title .messengers_title_text, .contacts_and_price_block .phone .phone_time_working {
+  font-size: 0.7vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.basic_information .pluses ul li, .basic_information .about_questions .about_questions_text {
+  font-size: 0.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contacts_and_price_block .price_list .price_list_download, .contacts_and_price_block .phone .phone_call {
+  font-weight: 600;
+  font-size: 0.7vw;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.overflow {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: rgba(193, 193, 193, 0.8);
+}
+.overflow .modal {
+  position: relative;
+  margin-top: 80px;
+  width: 550px;
+  height: 650px;
+  background: #fff;
+  border-radius: 35px;
+  padding: 70px 0 93px 0;
+  z-index: 1000;
+}
+.overflow .modal .modal_container {
+  width: 368px;
+  height: 284px;
+  margin: 0 auto;
+}
+.overflow .modal .modal_container .modal_title {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: #1C1C1C;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  margin-bottom: 14px;
+}
+.overflow .modal .modal_container .modal_text {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: #1C1C1C;
+  line-height: 24px;
+  text-align: center;
+  color: #1C1C1C;
+  margin-bottom: 24px;
+}
+.overflow .modal .modal_container .modal_subtext {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: #1C1C1C;
+  line-height: 15px;
+  text-align: center;
+  color: #1C1C1C;
+  margin-bottom: 28px;
+  opacity: 0.75;
+}
+.overflow .modal .modal_container .modal_text_tel {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: #1C1C1C;
+  line-height: 15px;
+  text-align: left;
+  color: #1C1C1C;
+  margin-bottom: 12px;
+  opacity: 0.75;
+  margin-left: 46px;
+}
+.overflow .modal .modal_container input {
+  width: 356px;
+  height: 85px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 500px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #A7A7A7;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+.overflow .modal .modal_container .modal_call {
+  width: 356px;
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F38120;
+  -webkit-box-shadow: inset 0px 0px 17px rgba(255, 255, 255, 0.25);
+          box-shadow: inset 0px 0px 17px rgba(255, 255, 255, 0.25);
+  border-radius: 500px;
+  padding: 0 87px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.overflow .modal .modal_container .modal_call img {
+  width: 25px;
+  height: 25px;
+}
+.overflow .modal .modal_container .modal_check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.overflow .modal .modal_container .modal_check input {
+  width: 18px;
+  height: 18px;
+  margin-top: 18px;
+}
+.overflow .modal .modal_container .modal_check .modal_check_text {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 21px;
+  color: #1C1C1C;
+  margin-left: 20px;
+}
+.overflow .modal .modal_container .modal_check .modal_check_text span {
+  color: #F38120;
+  font-weight: 500;
+  cursor: pointer;
+}
+.overflow .modal .modal_container .err {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: red;
+  display: none;
+}
+.overflow .modal .modal_container .close {
+  position: absolute;
+  top: 45px;
+  right: 47px;
+  cursor: pointer;
+}
+
+.overflow_modal_true {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: rgba(193, 193, 193, 0.8);
+}
+.overflow_modal_true .modal_true {
+  position: relative;
+  margin-top: 180px;
+  width: 400px;
+  height: 200px;
+  background: #fff;
+  border-radius: 35px;
+  padding: 70px 0 93px 0;
+  z-index: 1000;
+}
+.overflow_modal_true .modal_true .madal_true_text {
+  line-height: 31px;
+  color: green;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.overflow_modal_true .modal_true .modal_true_close {
+  position: absolute;
+  top: 25px;
+  right: 27px;
+  cursor: pointer;
+}
+
+.contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text, .contacts_and_price_block .messengers .messengers_title .messengers_title_text, .contacts_and_price_block .phone .phone_time_working {
+  font-size: 0.7vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.basic_information .pluses ul li, .basic_information .about_questions .about_questions_text {
+  font-size: 0.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contacts_and_price_block .price_list .price_list_download, .contacts_and_price_block .phone .phone_call {
+  font-weight: 600;
+  font-size: 0.7vw;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+@media (min-width: 992px) and (max-width: 1250px) {
+  .inner .price_list .price_list_circles_pdf {
+    width: 30px;
+    height: 30px;
+  }
+
+  .messengers_flex_block img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .wrapper .overflow .modal {
+    margin-top: 60px;
+    width: 520px;
+    height: 560px;
+    border-radius: 30px;
+    padding: 60px 0 73px 0;
+  }
+  .wrapper .overflow .modal .modal_container {
+    width: 338px;
+    height: 254px;
+    margin: 0 auto;
+  }
+  .wrapper .overflow .modal .modal_container .modal_title {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: #1C1C1C;
+    line-height: 25px;
+    margin-bottom: 12px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_subtext {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 12px;
+    margin-bottom: 24px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_text_tel {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 12px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+  .wrapper .overflow .modal .modal_container input {
+    width: 338px;
+    height: 70px;
+    -webkit-box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 16px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_call {
+    width: 336px;
+    height: 70px;
+    padding: 0 77px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_call img {
+    width: 22px;
+    height: 22px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check input {
+    width: 18px;
+    height: 18px;
+    margin-top: 18px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check .modal_check_text {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 18px;
+    color: #1C1C1C;
+    margin-left: 14px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check .modal_check_text span {
+    color: #F38120;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .wrapper .overflow .modal .modal_container .close {
+    position: absolute;
+    top: 35px;
+    right: 37px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 100%;
+  }
+  .wrapper span {
+    font-weight: 700;
+  }
+  .wrapper .conteiner {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  .wrapper .conteiner header {
+    padding: 23px 0 18px 0;
+  }
+  .wrapper .conteiner header nav ul li {
+    font-size: 8px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .wrapper .conteiner header nav ul li:before {
+    bottom: -7px;
+  }
+  .wrapper .conteiner header nav ul li:first-child img {
+    width: 15px;
+    height: 15px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block {
+    margin-bottom: 20px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .brief_presentation {
+    margin-top: 15px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.wrapper .conteiner main .contacts_and_price_block .brief_presentation .brief_presentation_top_text {
+    font-size: 6px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 10px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .brief_presentation .brief_presentation_botton_text {
+    margin-top: 6px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .brief_presentation .brief_presentation_top_text {
+    margin-bottom: 6px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .price_list {
+    margin-top: 25px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .price_list .price_list_circles_pdf {
+    width: 20px;
+    height: 20px;
+    font-size: 6px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 6px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .price_list .price_list_download {
+    font-size: 6px;
+    font-weight: 600;
+    text-align: center;
+    text-underline-offset: 3px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers {
+    margin-top: 20px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_title .messengers_title_text {
+    font-size: 6px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-left: 2px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_title .messengers_title_text .messengers_circle {
+    width: 2px;
+    height: 2px;
+    margin-right: 4px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_title .messengers_flex_block {
+    margin-top: 0;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_flex_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_flex_block img {
+    margin-right: 4px;
+    cursor: pointer;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_flex_block img:last-child {
+    margin-right: 0;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone {
+    margin-top: 20px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_time_working {
+    font-size: 6px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_time_working .square {
+    width: 2px;
+    height: 2px;
+    margin-right: 4px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_phone {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 20px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_call {
+    font-size: 6px;
+    font-weight: 600;
+    text-align: center;
+    text-underline-offset: 3px;
+  }
+  .wrapper .conteiner main .basic_information .pluses {
+    border-radius: 0 0 10px 10px;
+    width: 12vw;
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li {
+    font-size: 6px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 10px;
+    padding: 10px 12px;
+  }
+  .wrapper .conteiner main .basic_information .pluses li:first-child {
+    padding-top: 20px;
+  }
+  .wrapper .conteiner main .basic_information .pluses li:last-child {
+    padding-bottom: 15px;
+  }
+  .wrapper .conteiner main .basic_information .pluses li:first-child::before {
+    height: 14px;
+    border-radius: 10px 10px 0 0;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons {
+    margin-left: 35px;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons h1 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: #1C1C1C;
+    line-height: 35px;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons .montage_flex_block {
+    margin: 15px 0 25px 0;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons .montage_flex_block .montage_flex_block_text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    margin-left: 8px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block {
+    margin-bottom: 14px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button {
+    margin-right: 8px;
+    width: 175px;
+    height: 50px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button,
+.wrapper .conteiner main .basic_information .action_buttons_flex_block .record_button {
+    font-size: 6px;
+    font-weight: 600;
+    text-align: #1C1C1C;
+    padding: 15px 25px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button .text,
+.wrapper .conteiner main .basic_information .action_buttons_flex_block .record_button .text {
+    line-height: 12px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button .calculation_button_img,
+.wrapper .conteiner main .basic_information .action_buttons_flex_block .record_button .calculation_button_img {
+    width: 20px;
+    height: 20px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .record_button {
+    width: 160px;
+    height: 50px;
+  }
+  .wrapper .conteiner main .basic_information .about_questions {
+    margin-top: 20px;
+  }
+  .wrapper .conteiner main .basic_information .about_questions img {
+    width: 13px;
+    height: 12px;
+  }
+  .wrapper .conteiner main .basic_information .about_questions .about_questions_text {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 15px;
+    margin-right: 10px;
+    width: 18vw;
+  }
+  .wrapper .conteiner .messengers_flex_block img {
+    width: 20px;
+    height: 20px;
+  }
+  .wrapper .conteiner .logo {
+    width: 170px;
+    height: 130px;
+    margin-top: -14px;
+  }
+  .wrapper .conteiner .logo img {
+    width: 170px;
+    height: 130px;
+  }
+  .wrapper .conteiner .inner .action_buttons_flex_block .calculation_button img,
+.wrapper .conteiner .inner .action_buttons_flex_block .record_button img {
+    width: 10px;
+    height: 10px;
+  }
+  .wrapper .overflow .modal {
+    margin-top: 60px;
+    width: 350px;
+    height: 420px;
+    border-radius: 30px;
+    padding: 40px 0 53px 0;
+  }
+  .wrapper .overflow .modal .modal_container {
+    width: 225px;
+    height: 254px;
+    margin: 0 auto;
+  }
+  .wrapper .overflow .modal .modal_container .modal_title {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: #1C1C1C;
+    line-height: 25px;
+    margin-bottom: 8px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_text {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_subtext {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 8px;
+    margin-bottom: 20px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_text_tel {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 8px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  .wrapper .overflow .modal .modal_container input {
+    width: 225px;
+    height: 50px;
+    -webkit-box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 16px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_call {
+    width: 225px;
+    height: 50px;
+    padding: 0 55px;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_call img {
+    width: 18px;
+    height: 18px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check input {
+    width: 14px;
+    height: 14px;
+    margin-top: 14px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check .modal_check_text {
+    font-size: 7px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 16px;
+    color: #1C1C1C;
+    margin-left: 14px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check .modal_check_text span {
+    color: #F38120;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .wrapper .overflow .modal .modal_container .close {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 25px;
+    right: 27px;
+    cursor: pointer;
+  }
+  .wrapper .modal_true {
+    width: 350px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 50px 0 73px 0;
+    z-index: 100;
+  }
+  .wrapper .modal_true .madal_true_text {
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .wrapper .modal_true .modal_true_close {
+    top: 20px;
+    right: 22px;
+    width: 15px;
+    height: 15px;
+  }
+}
+.contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text, .contacts_and_price_block .messengers .messengers_title .messengers_title_text, .contacts_and_price_block .phone .phone_time_working {
+  font-size: 0.7vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.basic_information .pluses ul li, .basic_information .about_questions .about_questions_text {
+  font-size: 0.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contacts_and_price_block .price_list .price_list_download, .contacts_and_price_block .phone .phone_call {
+  font-weight: 600;
+  font-size: 0.7vw;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 100%;
+  }
+  .wrapper span {
+    font-weight: 700;
+  }
+  .wrapper .conteiner {
+    max-width: 470px;
+    margin: 0 auto;
+  }
+  .wrapper .conteiner header {
+    padding: 16px 0 13px 0;
+  }
+  .wrapper .conteiner header nav ul li {
+    font-size: 6px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .wrapper .conteiner header nav ul li:before {
+    bottom: -5px;
+  }
+  .wrapper .conteiner header nav ul li:first-child img {
+    width: 10px;
+    height: 10px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block {
+    margin-bottom: 10px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .brief_presentation {
+    margin-top: 11px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.wrapper .conteiner main .contacts_and_price_block .brief_presentation .brief_presentation_top_text {
+    font-size: 6px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 8px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .brief_presentation .brief_presentation_botton_text {
+    margin-top: 4px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .brief_presentation .brief_presentation_top_text {
+    margin-bottom: 4px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .price_list {
+    margin-top: 18px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .price_list .price_list_circles_pdf {
+    width: 14px;
+    height: 14px;
+    font-size: 4px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 4px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .price_list .price_list_download {
+    font-size: 4px;
+    font-weight: 600;
+    text-align: center;
+    text-underline-offset: 2px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers {
+    margin-top: 14px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_title .messengers_title_text {
+    font-size: 4px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-left: 2px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_title .messengers_title_text .messengers_circle {
+    width: 2px;
+    height: 2px;
+    margin-right: 3px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_title .messengers_flex_block {
+    margin-top: 0;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_flex_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_flex_block img {
+    margin-right: 3px;
+    cursor: pointer;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers .messengers_flex_block img:last-child {
+    margin-right: 0;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone {
+    margin-top: 14px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_time_working {
+    font-size: 4px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_time_working .square {
+    width: 2px;
+    height: 2px;
+    margin-right: 3px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_phone {
+    font-size: 8px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 14px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_call {
+    font-size: 4px;
+    font-weight: 600;
+    text-align: center;
+    text-underline-offset: 2px;
+  }
+  .wrapper .conteiner main .basic_information .pluses {
+    border-radius: 0 0 8px 8px;
+    width: 12vw;
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li {
+    font-size: 4px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 8px;
+    padding: 7px 9px;
+  }
+  .wrapper .conteiner main .basic_information .pluses li:first-child {
+    padding-top: 14px;
+  }
+  .wrapper .conteiner main .basic_information .pluses li:last-child {
+    padding-bottom: 11px;
+  }
+  .wrapper .conteiner main .basic_information .pluses li:first-child::before {
+    height: 10px;
+    border-radius: 7px 7px 0 0;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons {
+    margin-left: 25px;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons h1 {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: #1C1C1C;
+    line-height: 25px;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons .montage_flex_block {
+    margin: 11px 0 18px 0;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons .montage_flex_block .montage_flex_block_text {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    margin-left: 6px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block {
+    margin-bottom: 10px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button {
+    margin-right: 6px;
+    width: 125px;
+    height: 36px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button,
+.wrapper .conteiner main .basic_information .action_buttons_flex_block .record_button {
+    font-size: 4px;
+    font-weight: 600;
+    text-align: #1C1C1C;
+    padding: 11px 18px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button .text,
+.wrapper .conteiner main .basic_information .action_buttons_flex_block .record_button .text {
+    line-height: 9px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button .calculation_button_img,
+.wrapper .conteiner main .basic_information .action_buttons_flex_block .record_button .calculation_button_img {
+    width: 14px;
+    height: 14px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .record_button {
+    width: 111px;
+    height: 36px;
+  }
+  .wrapper .conteiner main .basic_information .about_questions {
+    margin-top: 14px;
+  }
+  .wrapper .conteiner main .basic_information .about_questions img {
+    width: 10px;
+    height: 9px;
+  }
+  .wrapper .conteiner main .basic_information .about_questions .about_questions_text {
+    font-size: 6px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 11px;
+    margin-right: 8px;
+    width: 19vw;
+  }
+  .wrapper .conteiner .messengers_flex_block img {
+    width: 14px;
+    height: 14px;
+  }
+  .wrapper .conteiner .logo {
+    width: 123px;
+    height: 94px;
+    margin-top: -10px;
+  }
+  .wrapper .conteiner .logo img {
+    width: 123px;
+    height: 94px;
+  }
+  .wrapper .conteiner .inner .action_buttons_flex_block .calculation_button img,
+.wrapper .conteiner .inner .action_buttons_flex_block .record_button img {
+    width: 8px;
+    height: 8px;
+  }
+  .wrapper .overflow .modal {
+    margin-top: 60px;
+    width: 310px;
+    height: 340px;
+    border-radius: 15px;
+    padding: 40px 0 53px 0;
+  }
+  .wrapper .overflow .modal .modal_container {
+    width: 200px;
+    height: 234px;
+    margin: 0 auto;
+  }
+  .wrapper .overflow .modal .modal_container .modal_title {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: #1C1C1C;
+    line-height: 20px;
+    margin-bottom: 6px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_text {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_subtext {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 8px;
+    margin-bottom: 16px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_text_tel {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 8px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+  }
+  .wrapper .overflow .modal .modal_container input {
+    width: 200px;
+    height: 40px;
+    -webkit-box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 10px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_call {
+    width: 200px;
+    height: 40px;
+    padding: 0 45px;
+    font-size: 8px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_call img {
+    width: 16px;
+    height: 16px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check input {
+    width: 12px;
+    height: 12px;
+    margin-top: 12px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check .modal_check_text {
+    font-size: 6px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 10px;
+    color: #1C1C1C;
+    margin-left: 12px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check .modal_check_text span {
+    color: #F38120;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .wrapper .overflow .modal .modal_container .err {
+    font-size: 8px;
+    font-weight: 500;
+    text-align: center;
+    color: red;
+    display: none;
+  }
+  .wrapper .overflow .modal .modal_container .close {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 25px;
+    right: 27px;
+    cursor: pointer;
+  }
+  .wrapper .modal_true {
+    width: 300px;
+    height: 100px;
+    border-radius: 25px;
+    padding: 30px 20px 53px 20px;
+    z-index: 100;
+  }
+  .wrapper .modal_true .madal_true_text {
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .wrapper .modal_true .modal_true_close {
+    top: 20px;
+    right: 22px;
+    width: 10px;
+    height: 10px;
+  }
+}
+.contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text, .contacts_and_price_block .messengers .messengers_title .messengers_title_text, .contacts_and_price_block .phone .phone_time_working {
+  font-size: 0.7vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.basic_information .pluses ul li, .basic_information .about_questions .about_questions_text {
+  font-size: 0.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contacts_and_price_block .price_list .price_list_download, .contacts_and_price_block .phone .phone_call {
+  font-weight: 600;
+  font-size: 0.7vw;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    background: url("../../images/Фон 1.png") no-repeat;
+    background-color: #EDF2F5;
+    background-size: cover;
+    background-position: bottom right;
+    overflow: hidden;
+  }
+  .wrapper span {
+    font-weight: 700;
+  }
+  .wrapper .conteiner {
+    width: 280px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    z-index: 10;
+  }
+  .wrapper .conteiner header {
+    padding: 16px 0 13px 0;
+    border-bottom: none;
+  }
+  .wrapper .conteiner header nav ul {
+    display: none;
+  }
+  .wrapper .conteiner main {
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper .conteiner main .contacts_and_price_block {
+    margin-bottom: 34px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .burger {
+    width: 20px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    cursor: pointer;
+    background: url("../../images/Меню.png");
+  }
+  .wrapper .conteiner main .contacts_and_price_block .close_nav {
+    width: 20px;
+    height: 20px;
+    background: url("../../images/Vector (2).png");
+  }
+  .wrapper .conteiner main .contacts_and_price_block .brief_presentation {
+    display: none;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .price_list {
+    display: none;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .messengers {
+    display: none;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone {
+    margin-top: 10px;
+    position: absolute;
+    left: 35%;
+    top: 0;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_time_working {
+    font-size: 7px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_time_working .square {
+    background-color: #12C868;
+    width: 5px;
+    height: 5px;
+    margin-right: 5px;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_phone {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin: 6px 0;
+    letter-spacing: 0.05em;
+  }
+  .wrapper .conteiner main .contacts_and_price_block .phone .phone_call {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    text-underline-offset: 5px;
+  }
+  .wrapper .conteiner main .basic_information {
+    display: block;
+  }
+  .wrapper .conteiner main .basic_information .pluses {
+    width: 250px;
+    border-radius: 0px 20px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    z-index: 100;
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 20px;
+    text-align: left;
+    padding: 0 70px 0 23px;
+    margin-bottom: 25px;
+    display: none;
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li:first-child {
+    padding-top: 20px;
+    position: relative;
+    display: block;
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li:first-child .pluses_li_top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li:first-child .pluses_li_top .top_title {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li:first-child .pluses_li_top .plusses_plus_block {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 33px;
+    height: 33px;
+    background-color: #F38120;
+    border-radius: 50%;
+    margin-top: 13px;
+    z-index: 100;
+    -webkit-animation: radial-pulse 1s infinite;
+            animation: radial-pulse 1s infinite;
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li:first-child .pluses_li_top .plusses_plus_block .img_block {
+    background: url("../../images/+.png");
+    width: 9px;
+    height: 9px;
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li:first-child .pluses_li_top .close_plusses .img_block {
+    background: url("../../images/Vector (3).png");
+    width: 12px;
+    height: 12px;
+  }
+  @-webkit-keyframes radial-pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0px #F38120;
+              box-shadow: 0 0 0 0px #F38120;
+    }
+    100% {
+      -webkit-box-shadow: 0 0 0 40px rgba(207, 241, 207, 0);
+              box-shadow: 0 0 0 40px rgba(207, 241, 207, 0);
+    }
+  }
+  @keyframes radial-pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0px #F38120;
+              box-shadow: 0 0 0 0px #F38120;
+    }
+    100% {
+      -webkit-box-shadow: 0 0 0 40px rgba(207, 241, 207, 0);
+              box-shadow: 0 0 0 40px rgba(207, 241, 207, 0);
+    }
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li:first-child .pluses_li_transcription {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: #B5B5B5;
+    display: block;
+    text-align: left;
+    line-height: 12px;
+  }
+  .wrapper .conteiner main .basic_information .pluses ul li:first-child::before {
+    display: block;
+    content: "";
+    width: 99%;
+    height: 24px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateY(-96%) skewY(-175deg);
+            transform: translateY(-96%) skewY(-175deg);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+  }
+  .wrapper .conteiner main .basic_information .pluses li:last-child {
+    padding-bottom: 11px;
+  }
+  .wrapper .conteiner main .basic_information .pluses li:first-child::before {
+    height: 10px;
+    border-radius: 7px 7px 0 0;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons {
+    text-align: center;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons h1 {
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: #1C1C1C;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons .montage_flex_block {
+    margin: 3px 0 18px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons .montage_flex_block img {
+    width: 37px;
+    height: 6px;
+    margin: 9.5px 0 6px 0;
+  }
+  .wrapper .conteiner main .basic_information .title_action_buttons .montage_flex_block .montage_flex_block_text {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block {
+    position: absolute;
+    left: 0;
+    top: 290px;
+    display: block;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button {
+    margin-bottom: 12px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button,
+.wrapper .conteiner main .basic_information .action_buttons_flex_block .record_button {
+    width: 280px;
+    height: 55px;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: #1C1C1C;
+    padding: 11px 18px;
+  }
+  .wrapper .conteiner main .basic_information .action_buttons_flex_block .calculation_button .text,
+.wrapper .conteiner main .basic_information .action_buttons_flex_block .record_button .text {
+    text-align: center;
+    line-height: 15px;
+  }
+  .wrapper .conteiner main .basic_information .about_questions {
+    position: absolute;
+    left: 0px;
+    top: 215px;
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .conteiner main .basic_information .about_questions img {
+    width: 10px;
+    height: 9px;
+  }
+  .wrapper .conteiner main .basic_information .about_questions .about_questions_text {
+    width: 276px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 16px;
+    margin-right: 8px;
+  }
+  .wrapper .conteiner .messengers_flex_block img {
+    width: 14px;
+    height: 14px;
+  }
+  .wrapper .conteiner .logo {
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    top: 12px;
+    left: -15px;
+  }
+  .wrapper .conteiner .logo img {
+    width: 90px;
+    height: 70px;
+  }
+  .wrapper .conteiner .inner .action_buttons_flex_block .calculation_button img {
+    width: 15px;
+    height: 15px;
+    margin-left: 12px;
+  }
+  .wrapper .conteiner .inner .action_buttons_flex_block .record_button img {
+    width: 15px;
+    height: 15px;
+    margin-left: 40px;
+  }
+  .wrapper .overflow .modal {
+    margin-top: 60px;
+    width: 310px;
+    height: 340px;
+    border-radius: 15px;
+    padding: 40px 0 53px 0;
+  }
+  .wrapper .overflow .modal .modal_container {
+    width: 200px;
+    height: 234px;
+    margin: 0 auto;
+  }
+  .wrapper .overflow .modal .modal_container .modal_title {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: #1C1C1C;
+    line-height: 20px;
+    margin-bottom: 6px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_text {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_subtext {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 8px;
+    margin-bottom: 16px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_text_tel {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: #1C1C1C;
+    line-height: 8px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+  }
+  .wrapper .overflow .modal .modal_container input {
+    width: 200px;
+    height: 40px;
+    -webkit-box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 10px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_call {
+    width: 200px;
+    height: 40px;
+    padding: 0 45px;
+    font-size: 8px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_call img {
+    width: 16px;
+    height: 16px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check input {
+    width: 12px;
+    height: 12px;
+    margin-top: 12px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check .modal_check_text {
+    font-size: 6px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 10px;
+    color: #1C1C1C;
+    margin-left: 12px;
+  }
+  .wrapper .overflow .modal .modal_container .modal_check .modal_check_text span {
+    color: #F38120;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .wrapper .overflow .modal .modal_container .err {
+    font-size: 6px;
+    font-weight: 500;
+    text-align: center;
+    color: red;
+    display: none;
+  }
+  .wrapper .overflow .modal .modal_container .close {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 25px;
+    right: 27px;
+    cursor: pointer;
+  }
+  .wrapper .modal_true {
+    width: 200px;
+    height: 80px;
+    border-radius: 25px;
+    padding: 30px 20px 53px 20px;
+    z-index: 100;
+  }
+  .wrapper .modal_true .madal_true_text {
+    line-height: 16px;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .wrapper .modal_true .modal_true_close {
+    top: 16px;
+    right: 18px;
+    width: 10px;
+    height: 10px;
+  }
+}
+.contacts_and_price_block .brief_presentation .brief_presentation_botton_text,
+.contacts_and_price_block .brief_presentation .brief_presentation_top_text, .contacts_and_price_block .messengers .messengers_title .messengers_title_text, .contacts_and_price_block .phone .phone_time_working {
+  font-size: 0.7vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.basic_information .pluses ul li, .basic_information .about_questions .about_questions_text {
+  font-size: 0.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contacts_and_price_block .price_list .price_list_download, .contacts_and_price_block .phone .phone_call {
+  font-weight: 600;
+  font-size: 0.7vw;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .wrapper {
+    position: relative;
+    z-index: 10;
+  }
+  .wrapper .nav_right {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #EDF2F5;
+    z-index: 1000;
+  }
+  .wrapper .nav_right .nav_right_container {
+    width: 206px;
+    margin: 0 auto;
+    margin-top: 24px;
+  }
+  .wrapper .nav_right .nav_right_container ul li {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .wrapper .nav_right .nav_right_container .brief_presentation {
+    margin: 12px 0 28px 0;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 14px;
+  }
+  .wrapper .nav_right .nav_right_container .price_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 29px;
+  }
+  .wrapper .nav_right .nav_right_container .price_list .price_list_circles_pdf {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    color: #12C868;
+    cursor: pointer;
+    margin-right: 17px;
+  }
+  .wrapper .nav_right .nav_right_container .price_list .price_list_download {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    color: #1C1C1C;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    text-underline-offset: 5px;
+    -webkit-text-decoration-style: dotted;
+            text-decoration-style: dotted;
+    -webkit-text-decoration-color: #12C868;
+            text-decoration-color: #12C868;
+    cursor: pointer;
+  }
+  .wrapper .nav_right .nav_right_container .messengers .messengers_title .messengers_title_text {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: center;
+    color: #1C1C1C;
+    margin-bottom: 2vh;
+    margin-left: 0.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .nav_right .nav_right_container .messengers .messengers_title .messengers_title_text .messengers_circle {
+    width: 4px;
+    height: 4px;
+    background-color: #12C868;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .wrapper .nav_right .nav_right_container .messengers .messengers_flex_block {
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .nav_right .nav_right_container .messengers .messengers_flex_block img {
+    width: 43px;
+    height: 43px;
+    margin-right: 10px;
+  }
+  .wrapper .nav_right .nav_right_container .messengers .messengers_flex_block img:last-child {
+    margin-right: 0;
+  }
+}
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}

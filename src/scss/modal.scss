@@ -1,0 +1,166 @@
+@import "type.scss";
+
+.overflow {
+   visibility: hidden;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 100;
+   @include size(100%, 100%);
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   background-color: rgba(193, 193, 193, 0.8);
+
+   .modal {
+      position: relative;
+      margin-top: 80px;
+      @include size(550px, 650px);
+      background: $clr7;
+      border-radius: 35px;
+      padding: 70px 0 93px 0;
+      z-index: 1000;
+
+      .modal_container {
+         @include size(368px, 284px);
+         margin: 0 auto;
+
+         .modal_title {
+            @include text(30px, 500, $clr1);
+            text-align: center;
+            letter-spacing: 0.02em;
+            line-height: 30px;
+            margin-bottom: 14px;
+         }
+
+         .modal_text {
+            @include text(16px, 400, $clr1);
+            line-height: 24px;
+            text-align: center;
+            color: $clr1;
+            margin-bottom: 24px;
+         }
+
+         .modal_subtext {
+            @include text(14px, 400, $clr1);
+            line-height: 15px;
+            text-align: center;
+            color: $clr1;
+            margin-bottom: 28px;
+            opacity: 0.75;
+         }
+
+         .modal_text_tel {
+            @include text(14px, 400, $clr1);
+            line-height: 15px;
+            text-align: left;
+            color: $clr1;
+            margin-bottom: 12px;
+            opacity: 0.75;
+            margin-left: 46px;
+         }
+
+         input {
+            @include size(356px, 85px);
+            background: $clr7;
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+            border-radius: 500px;
+            margin-bottom: 24px;
+            @include text(18px, 400, center);
+            color: #A7A7A7;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+         }
+
+         .modal_call {
+            @include size(356px, 85px);
+            @include flex(space-between, center);
+            background: $clr3;
+            box-shadow: inset 0px 0px 17px rgba(255, 255, 255, 0.25);
+            border-radius: 500px;
+            padding: 0 87px;
+            @include text(16px, 600, center);
+            color: $clr7;
+            letter-spacing: 0.02em;
+            margin-bottom: 20px;
+            cursor: pointer;
+
+            img {
+               @include size(25px, 25px);
+            }
+         }
+
+         .modal_check {
+            @include flex(center, center);
+
+            input {
+               @include size(18px, 18px);
+               margin-top: 18px;
+            }
+
+            .modal_check_text {
+               @include text(12px, 500, left);
+               line-height: 21px;
+               color: $clr1;
+               margin-left: 20px;
+
+               span {
+                  color: $clr3;
+                  font-weight: 500;
+                  cursor: pointer;
+               }
+            }
+         }
+
+         .err {
+            @include text(12px, 500, center);
+            color: red;
+            display: none;
+         }
+
+         .close {
+            position: absolute;
+            top: 45px;
+            right: 47px;
+            cursor: pointer;
+         }
+      }
+   }
+}
+
+
+.overflow_modal_true {
+   visibility: hidden;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 100;
+   @include size(100%, 100%);
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   background-color: rgba(193, 193, 193, 0.8);
+
+   .modal_true {
+      position: relative;
+      margin-top: 180px;
+      @include size(400px, 200px);
+      background: $clr7;
+      border-radius: 35px;
+      padding: 70px 0 93px 0;
+      z-index: 1000;
+
+      .madal_true_text {
+         line-height: 31px;
+         color: green;
+         @include text(20px, 400, center);
+      }
+
+      .modal_true_close {
+         position: absolute;
+         top: 25px;
+         right: 27px;
+         cursor: pointer;
+      }
+   }
+}

@@ -1,0 +1,463 @@
+@import "type.scss";
+
+@media (min-width: 992px) and (max-width: 1250px) {
+   .inner .price_list .price_list_circles_pdf {
+      @include size(30px, 30px)
+   }
+
+   .messengers_flex_block {
+      img {
+         width: 30px;
+         height: 30px;
+      }
+   }
+
+   .wrapper {
+      .overflow {
+         .modal {
+            margin-top: 60px;
+            @include size(520px, 560px);
+            border-radius: 30px;
+            padding: 60px 0 73px 0;
+
+            .modal_container {
+               @include size(338px, 254px);
+               margin: 0 auto;
+
+               .modal_title {
+                  @include text(26px, 500, $clr1);
+                  line-height: 25px;
+                  margin-bottom: 12px;
+               }
+
+               .modal_text {
+                  @include text(14px, 400, $clr1);
+                  line-height: 20px;
+                  margin-bottom: 25px;
+               }
+
+               .modal_subtext {
+                  @include text(12px, 400, $clr1);
+                  line-height: 12px;
+                  margin-bottom: 24px;
+               }
+
+               .modal_text_tel {
+                  @include text(12px, 400, $clr1);
+                  line-height: 12px;
+                  margin-bottom: 10px;
+                  margin-left: 40px;
+               }
+
+               input {
+                  @include size(338px, 70px);
+                  box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+                  margin-bottom: 20px;
+                  @include text(16px, 400, center);
+                  line-height: 16px;
+               }
+
+               .modal_call {
+                  @include size(336px, 70px);
+                  padding: 0 77px;
+                  @include text(14px, 600, center);
+                  margin-bottom: 16px;
+
+                  img {
+                     @include size(22px, 22px);
+                  }
+               }
+
+               .modal_check {
+                  @include flex(center, center);
+
+                  input {
+                     @include size(18px, 18px);
+                     margin-top: 18px;
+                  }
+
+                  .modal_check_text {
+                     @include text(10px, 500, left);
+                     line-height: 18px;
+                     color: $clr1;
+                     margin-left: 14px;
+
+                     span {
+                        color: $clr3;
+                        font-weight: 500;
+                        cursor: pointer;
+                     }
+                  }
+               }
+
+               .close {
+                  position: absolute;
+                  top: 35px;
+                  right: 37px;
+                  cursor: pointer;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+   .wrapper {
+      @include size(100%, 100%);
+      background-size: cover;
+      background-position: 50% 100%;
+
+      span {
+         font-weight: 700;
+      }
+
+      .conteiner {
+         max-width: 650px;
+         margin: 0 auto;
+
+         header {
+            padding: 23px 0 18px 0;
+
+            nav {
+               ul {
+                  li {
+                     @include text(8px, 500, center);
+                  }
+
+                  li:before {
+                     bottom: -7px;
+                  }
+
+                  li:first-child {
+                     img {
+                        @include size(15px, 15px);
+                     }
+                  }
+               }
+            }
+         }
+
+         main {
+            .contacts_and_price_block {
+               margin-bottom: 20px;
+
+               .brief_presentation {
+                  margin-top: 15px;
+
+                  .brief_presentation_botton_text,
+                  .brief_presentation_top_text {
+                     @include text(6px, 400, center);
+                     line-height: 10px;
+                  }
+
+                  .brief_presentation_botton_text {
+                     margin-top: 6px;
+                  }
+
+                  .brief_presentation_top_text {
+                     margin-bottom: 6px;
+                  }
+               }
+
+               .price_list {
+                  margin-top: 25px;
+
+                  .price_list_circles_pdf {
+                     @include size(20px, 20px);
+                     @include text(6px, 600, center);
+                     margin-right: 6px;
+                  }
+
+
+                  .price_list_download {
+                     @include text(6px, 600, center);
+                     text-underline-offset: 3px;
+                  }
+               }
+
+               .messengers {
+                  margin-top: 20px;
+
+                  .messengers_title {
+
+                     .messengers_title_text {
+                        @include text(6px, 400, center);
+                        margin-bottom: 8px;
+                        margin-left: 2px;
+
+                        .messengers_circle {
+                           width: 2px;
+                           height: 2px;
+                           margin-right: 4px;
+                        }
+                     }
+
+                     .messengers_flex_block {
+                        margin-top: 0;
+                     }
+                  }
+
+                  .messengers_flex_block {
+                     @include flex(center, center);
+
+                     img {
+                        margin-right: 4px;
+                        cursor: pointer;
+                     }
+
+                     img:last-child {
+                        margin-right: 0;
+                     }
+                  }
+               }
+
+               .phone {
+                  margin-top: 20px;
+
+                  .phone_time_working {
+                     @include text(6px, 600, center);
+
+                     .square {
+                        width: 2px;
+                        height: 2px;
+                        margin-right: 4px;
+                     }
+                  }
+
+                  .phone_phone {
+                     @include text(10px, 600, center);
+                     line-height: 20px;
+                  }
+
+                  .phone_call {
+                     @include text(6px, 600, center);
+                     text-underline-offset: 3px;
+                  }
+               }
+            }
+
+            .basic_information {
+               .pluses {
+                  border-radius: 0 0 10px 10px;
+                  width: 12vw;
+
+                  ul {
+                     li {
+                        @include text(6px, 400, $clr1);
+                        line-height: 10px;
+                        padding: 10px 12px;
+                     }
+                  }
+
+                  li:first-child {
+                     padding-top: 20px;
+                  }
+
+                  li:last-child {
+                     padding-bottom: 15px;
+                  }
+
+                  li:first-child::before {
+                     height: 14px;
+                     border-radius: 10px 10px 0 0;
+                  }
+               }
+
+               .title_action_buttons {
+                  margin-left: 35px;
+
+                  h1 {
+                     @include text(24px, 300, $clr1);
+                     line-height: 35px;
+                  }
+
+                  .montage_flex_block {
+                     margin: 15px 0 25px 0;
+
+                     .montage_flex_block_text {
+                        @include text(16px, 400, $clr1);
+                        margin-left: 8px;
+                     }
+                  }
+               }
+
+               .action_buttons_flex_block {
+                  margin-bottom: 14px;
+
+                  .calculation_button {
+                     margin-right: 8px;
+                     @include size(175px, 50px);
+                  }
+
+                  .calculation_button,
+                  .record_button {
+                     @include text(6px, 600, $clr1);
+                     padding: 15px 25px;
+
+                     .text {
+                        line-height: 12px;
+                     }
+
+                     .calculation_button_img {
+                        @include size(20px, 20px);
+                     }
+                  }
+
+                  .record_button {
+                     @include size(160px, 50px);
+                  }
+               }
+
+               .about_questions {
+                  margin-top: 20px;
+
+                  img {
+                     @include size(13px, 12px);
+                  }
+
+                  .about_questions_text {
+                     @include text(8px, 400, $clr1);
+                     line-height: 15px;
+                     margin-right: 10px;
+                     width: 18vw;
+                  }
+               }
+            }
+         }
+
+         .messengers_flex_block {
+            img {
+               @include size(20px, 20px);
+            }
+         }
+
+         .logo {
+            @include size(170px, 130px);
+            margin-top: -14px;
+
+            img {
+               @include size(170px, 130px);
+            }
+         }
+
+         .inner .action_buttons_flex_block {
+
+            .calculation_button,
+            .record_button {
+               img {
+                  @include size(10px, 10px);
+               }
+            }
+         }
+      }
+
+      ////////////////////////////
+      .overflow {
+         .modal {
+            margin-top: 60px;
+            @include size(350px, 420px);
+            border-radius: 30px;
+            padding: 40px 0 53px 0;
+
+            .modal_container {
+               @include size(225px, 254px);
+               margin: 0 auto;
+
+               .modal_title {
+                  @include text(22px, 500, $clr1);
+                  line-height: 25px;
+                  margin-bottom: 8px;
+               }
+
+               .modal_text {
+                  @include text(12px, 400, $clr1);
+                  line-height: 16px;
+                  margin-bottom: 20px;
+               }
+
+               .modal_subtext {
+                  @include text(10px, 400, $clr1);
+                  line-height: 8px;
+                  margin-bottom: 20px;
+               }
+
+               .modal_text_tel {
+                  @include text(10px, 400, $clr1);
+                  line-height: 8px;
+                  margin-bottom: 10px;
+                  margin-left: 20px;
+               }
+
+               input {
+                  @include size(225px, 50px);
+                  box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+                  margin-bottom: 20px;
+                  @include text(16px, 400, center);
+                  line-height: 16px;
+               }
+
+               .modal_call {
+                  @include size(225px, 50px);
+                  padding: 0 55px;
+                  @include text(10px, 600, center);
+                  margin-bottom: 14px;
+
+                  img {
+                     @include size(18px, 18px);
+                  }
+               }
+
+               .modal_check {
+                  @include flex(center, center);
+
+                  input {
+                     @include size(14px, 14px);
+                     margin-top: 14px;
+                  }
+
+                  .modal_check_text {
+                     @include text(7px, 500, left);
+                     line-height: 16px;
+                     color: $clr1;
+                     margin-left: 14px;
+
+                     span {
+                        color: $clr3;
+                        font-weight: 500;
+                        cursor: pointer;
+                     }
+                  }
+               }
+
+               .close {
+                  @include size(15px, 15px);
+                  position: absolute;
+                  top: 25px;
+                  right: 27px;
+                  cursor: pointer;
+               }
+            }
+         }
+      }
+
+      //////////////////////    
+      .modal_true {
+         @include size(350px, 150px);
+         border-radius: 25px;
+         padding: 50px 0 73px 0;
+         z-index: 100;
+
+         .madal_true_text {
+            line-height: 25px;
+            @include text(16px, 400, center);
+         }
+
+         .modal_true_close {
+            top: 20px;
+            right: 22px;
+            @include size(15px, 15px);
+         }
+      }
+   }
+}

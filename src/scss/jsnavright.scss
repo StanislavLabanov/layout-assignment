@@ -1,0 +1,104 @@
+@import "type.scss";
+
+@media (min-width: 0px) and (max-width: 500px) {
+   .wrapper {
+      position: relative;
+      z-index: 10;
+
+      .nav_right {
+         position: absolute;
+         top: 60px;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: $clr9;
+         z-index: 1000;
+
+         .nav_right_container {
+            width: 206px;
+            margin: 0 auto;
+            margin-top: 24px;
+
+            ul {
+               li {
+                  text-align: center;
+                  margin-bottom: 20px;
+               }
+            }
+
+            .brief_presentation {
+               margin: 12px 0 28px 0;
+               @include text(10px, 400, center);
+               line-height: 14px;
+            }
+
+            .price_list {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin-bottom: 29px;
+
+               .price_list_circles_pdf {
+                  @include size(44px, 44px);
+                  border-radius: 50%;
+                  background: $clr7;
+                  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+                  @include flex(center, center);
+                  @include text(11px, 600, center);
+                  color: $clr2;
+                  cursor: pointer;
+                  margin-right: 17px;
+               }
+
+
+               .price_list_download {
+                  @include text(10px, 600, center);
+                  color: $clr1;
+                  text-decoration-line: underline;
+                  text-underline-offset: 5px;
+                  text-decoration-style: dotted;
+                  text-decoration-color: $clr2;
+                  cursor: pointer;
+               }
+            }
+
+            .messengers {
+
+               .messengers_title {
+
+                  .messengers_title_text {
+                     @include text(8px, 400, center);
+                     color: $clr1;
+                     margin-bottom: 2vh;
+                     margin-left: 0.4vw;
+                     @include flex(center, center);
+
+                     .messengers_circle {
+                        width: 4px;
+                        height: 4px;
+                        background-color: $clr2;
+                        border-radius: 50%;
+                        margin-right: 5px;
+                     }
+                  }
+
+               }
+
+               .messengers_flex_block {
+                  margin-top: 0;
+                  @include flex(center, center);
+
+                  img {
+                     @include size(43px, 43px);
+                     margin-right: 10px;
+                  }
+
+                  img:last-child {
+                     margin-right: 0;
+                  }
+               }
+            }
+         }
+      }
+   }
+}

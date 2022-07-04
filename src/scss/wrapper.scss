@@ -1,0 +1,22 @@
+@import "type.scss";
+
+.wrapper {
+   @include size(100%, 150%);
+   background: url("../../images/BG.png") no-repeat;
+   background-size: cover;
+   background-position: 50% 100%;
+   position: relative;
+
+   .conteiner {
+      max-width: 80vw;
+      margin: 0 auto;
+   }
+
+   span {
+      font-weight: 700;
+   }
+
+   .nav_right {
+      display: none;
+   }
+}

@@ -1,0 +1,47 @@
+$clr1: #1C1C1C;
+$clr2: #12C868;
+$clr3: #F38120;
+$clr4: #EDF2F5;
+$clr5: #FD9C49;
+$clr6: #21E27C;
+$clr7: #fff;
+$clr8: #B5B5B5;
+$clr9: #EDF2F5;
+
+%text12 {
+   font-size: 0.7vw;
+   font-weight: 400;
+   letter-spacing: 0em;
+   text-align: center;
+}
+
+%text14 {
+   font-size: 0.9vw;
+   font-weight: 400;
+   letter-spacing: 0em;
+   text-align: center;
+}
+
+%textweight {
+   font-weight: 600;
+   font-size: 0.7vw;
+   text-align: center;
+   letter-spacing: 0.04em;
+}
+
+@mixin flex($j, $a) {
+   display: flex;
+   justify-content: $j;
+   align-items: $a;
+}
+
+@mixin size($w, $h) {
+   width: $w;
+   height: $h;
+}
+
+@mixin text($fs, $fw, $t) {
+   font-size: $fs;
+   font-weight: $fw;
+   text-align: $t;
+}

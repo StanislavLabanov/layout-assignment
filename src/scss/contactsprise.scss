@@ -1,0 +1,147 @@
+@import "type.scss";
+
+
+.contacts_and_price_block {
+   @include flex(space-between, flex-start);
+   margin-bottom: 5.5vh;
+
+   .burger {
+      display: none;
+   }
+
+   .brief_presentation {
+      margin-top: 3.5vh;
+
+      .brief_presentation_botton_text,
+      .brief_presentation_top_text {
+         @extend %text12;
+         line-height: 1.2vw;
+      }
+
+      .brief_presentation_botton_text {
+         margin-top: 1.5vh;
+      }
+
+      .brief_presentation_top_text {
+         margin-bottom: 1.5vh;
+      }
+   }
+
+   .phone,
+   .messengers {
+      margin-top: 4vh;
+   }
+
+   .price_list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 6vh;
+
+      .price_list_circles_pdf {
+         @include size(44px, 44px);
+         border-radius: 50%;
+         background: $clr7;
+         box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+         @include flex(center, center);
+         @include text(0.7vw, 600, center);
+         color: $clr2;
+         cursor: pointer;
+         margin-right: 1.5vw;
+      }
+
+
+      .price_list_download {
+         @extend %textweight;
+         color: $clr1;
+         text-decoration-line: underline;
+         text-underline-offset: 0.3vw;
+         text-decoration-style: dotted;
+         text-decoration-color: $clr2;
+         cursor: pointer;
+      }
+   }
+
+   .logo {
+      @include size(20vw, 30vh);
+      margin-top: -20px;
+
+      img {
+         @include size(20vw, 30vh);
+      }
+   }
+
+   .messengers {
+
+      .messengers_title {
+
+         .messengers_title_text {
+            @extend %text12;
+            color: $clr1;
+            margin-bottom: 2vh;
+            margin-left: 0.4vw;
+            @include flex(center, center);
+
+            .messengers_circle {
+               width: 4px;
+               height: 4px;
+               background-color: $clr2;
+               border-radius: 50%;
+               margin-right: 0.5vw;
+            }
+         }
+      }
+
+   }
+
+   .phone {
+
+      .phone_time_working {
+         @extend %text12;
+         color: $clr1;
+         @include flex(center, center);
+
+         .square {
+            width: 4px;
+            height: 4px;
+            background-color: $clr7;
+            border-radius: 50%;
+            margin-right: 0.5vw;
+         }
+      }
+
+      .phone_phone {
+         @include text(1.2vw, 600, center);
+         line-height: 2.5vw;
+         color: $clr1;
+         letter-spacing: 0.05em;
+      }
+
+      .phone_call {
+         @extend %textweight;
+         letter-spacing: 0.04em;
+         text-decoration-line: underline;
+         text-underline-offset: 0.5vh;
+         text-decoration-style: dotted;
+         color: $clr2;
+         cursor: pointer;
+      }
+   }
+
+   .messengers_flex_block {
+      margin-top: 0;
+      @include flex(flex-start, center);
+
+      a {
+         margin-right: 10px;
+
+         img {
+            @include size(30px, 30px);
+         }
+      }
+
+      a:last-child {
+         margin-right: 0;
+      }
+   }
+}

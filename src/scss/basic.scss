@@ -1,0 +1,141 @@
+@import "type.scss";
+
+.basic_information {
+   @include flex(flex-start, flex-start);
+
+   .pluses {
+      background: $clr7;
+      box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+      border-radius: 0 0 20px 20px;
+      width: 15vw;
+
+      ul {
+         li {
+            @extend %text14;
+            line-height: 1.5vw;
+            color: $clr1;
+            padding: 2.5vh 2vw;
+            margin: 0 auto;
+         }
+
+         li:first-child {
+            padding-top: 14px;
+            position: relative;
+
+            .pluses_li_top {
+               .plusses_plus_block {
+                  display: none;
+               }
+            }
+
+            .pluses_li_transcription {
+               display: none;
+            }
+         }
+
+
+         li:last-child {
+            padding-bottom: 6vh;
+         }
+
+         li:first-child::before {
+            display: block; // это блочный элемент
+            content: ''; // без него псевдоэлемент не отрисуется
+            width: 100%; // на всю ширину блока-родителя
+            height: 40px; // высота скошенного края
+            background: $clr7;
+            position: absolute; // позиционируем относительно block
+            top: 0; // пристроим к верхней части блока
+            left: 0; // пристроим к левой части блока
+            transform: translateY(-96%) skewY(-175deg);
+            transform-origin: left;
+            border-radius: 20px 20px 0 0;
+         }
+      }
+   }
+
+   .title_action_buttons {
+      margin-left: 4vw;
+
+      h1 {
+         @include text(3.5vw, 300, $clr1);
+         line-height: 5vw;
+      }
+
+      .montage_flex_block {
+         @include flex(flex-start, center);
+         margin: 2vh 0 6vh 0;
+
+         img {
+            margin-top: 1vh;
+         }
+
+         .montage_flex_block_text {
+            @include text(2.1vw, 400, $clr1);
+            margin-left: 1vw;
+         }
+      }
+   }
+
+   .action_buttons_flex_block {
+      @include flex(flex-start, center);
+      margin-bottom: 6vh;
+
+      .calculation_button {
+         margin-right: 1vw;
+         background-color: $clr2;
+         @include size(22vw, 9vh);
+      }
+
+      .calculation_button,
+      .record_button {
+         font-weight: 600;
+         font-size: 0.9vw;
+         line-height: 1.5vw;
+         text-align: center;
+         padding: 6vh 1.5vw;
+         box-shadow: inset 0px 0px 22px rgba(255, 255, 255, 0.25);
+         border-radius: 500px;
+         @include flex(center, center);
+         letter-spacing: 0.02em;
+         text-transform: uppercase;
+
+         .text {
+            margin-right: 2vw;
+            color: $clr7;
+            line-height: 1.5vw;
+         }
+
+         img {
+            @include size(20px, 20px)
+         }
+      }
+
+      .record_button {
+         background-color: $clr3;
+         @include size(20vw, 9vh);
+      }
+
+      .calculation_button:hover {
+         background-color: $clr6;
+      }
+
+      .record_button:hover {
+         background-color: $clr5;
+      }
+   }
+
+   .about_questions {
+      @include flex(flex-start, flex-start);
+
+      .about_questions_text {
+         width: 16vw;
+         @extend %text14;
+         line-height: 1.6vw;
+         text-align: center;
+         letter-spacing: 0.02em;
+         color: $clr1;
+         margin-left: 1vw;
+      }
+   }
+}

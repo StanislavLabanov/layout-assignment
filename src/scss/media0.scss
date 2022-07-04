@@ -1,0 +1,424 @@
+@import "type.scss";
+
+
+@media (min-width: 0px) and (max-width: 500px) {
+   .wrapper {
+      @include size(100%, 100%);
+      background: url("../../images/Фон 1.png") no-repeat;
+      background-color: $clr9;
+      background-size: cover;
+      background-position: bottom right;
+      overflow: hidden;
+
+      span {
+         font-weight: 700;
+      }
+
+      .conteiner {
+         @include size(280px, 100%);
+         position: relative;
+         margin: 0 auto;
+         z-index: 10;
+
+         header {
+            padding: 16px 0 13px 0;
+            border-bottom: none;
+
+            nav {
+               ul {
+                  display: none;
+               }
+            }
+         }
+
+         main {
+            @include size(100%, 100%);
+
+            .contacts_and_price_block {
+               margin-bottom: 34px;
+
+               .burger {
+                  @include size(20px, 15px);
+                  display: block;
+                  position: absolute;
+                  right: 0;
+                  top: 20px;
+                  cursor: pointer;
+                  background: url("../../images/Меню.png");
+               }
+
+               .close_nav {
+                  @include size(20px, 20px);
+                  background: url("../../images/Vector (2).png");
+               }
+
+               .brief_presentation {
+                  display: none;
+               }
+
+               .price_list {
+                  display: none;
+               }
+
+               .messengers {
+                  display: none;
+               }
+
+               .phone {
+                  margin-top: 10px;
+                  position: absolute;
+                  left: 35%;
+                  top: 0;
+
+                  .phone_time_working {
+                     @include text(7px, 400, center);
+
+                     .square {
+                        background-color: $clr2;
+                        width: 5px;
+                        height: 5px;
+                        margin-right: 5px;
+                     }
+                  }
+
+                  .phone_phone {
+                     @include text(14px, 600, center);
+                     margin: 6px 0;
+                     letter-spacing: 0.05em;
+                  }
+
+                  .phone_call {
+                     @include text(10px, 600, center);
+                     text-underline-offset: 5px;
+                  }
+               }
+            }
+
+            .basic_information {
+               display: block;
+
+               .pluses {
+                  width: 250px;
+                  border-radius: 0px 20px 0 0;
+                  position: absolute;
+                  bottom: 0;
+                  left: 5%;
+                  z-index: 100;
+
+                  ul {
+                     li {
+                        @include text(12px, 400, $clr1);
+                        line-height: 20px;
+                        text-align: left;
+                        padding: 0 70px 0 23px;
+                        margin-bottom: 25px;
+                        display: none;
+                     }
+
+                     li:first-child {
+                        padding-top: 20px;
+                        position: relative;
+                        display: block;
+
+                        .pluses_li_top {
+                           display: flex;
+
+                           .top_title {
+                              @include text(12px, 400, $clr1);
+                              line-height: 20px;
+                              text-align: left;
+                              margin-bottom: 10px;
+                           }
+
+                           .plusses_plus_block {
+                              cursor: pointer;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              position: absolute;
+                              right: 30px;
+                              top: 20px;
+                              @include size(33px, 33px);
+                              background-color: $clr3;
+                              border-radius: 50%;
+                              margin-top: 13px;
+                              z-index: 100;
+                              animation: radial-pulse 1s infinite;
+
+                              .img_block {
+                                 background: url("../../images/+.png");
+                                 @include size(9px, 9px);
+                              }
+                           }
+
+                           .close_plusses {
+                              .img_block {
+                                 background: url("../../images/Vector (3).png");
+                                 @include size(12px, 12px);
+                              }
+                           }
+
+                           @keyframes radial-pulse {
+                              0% {
+                                 box-shadow: 0 0 0 0px $clr3;
+                              }
+
+                              100% {
+                                 box-shadow: 0 0 0 40px rgba(207, 241, 207, 0);
+                              }
+                           }
+                        }
+
+                        .pluses_li_transcription {
+                           @include text(8px, 400, $clr8);
+                           display: block;
+                           text-align: left;
+                           line-height: 12px;
+                        }
+                     }
+
+                     li:first-child::before {
+                        display: block;
+                        content: '';
+                        width: 99%;
+                        height: 24px;
+                        background: $clr7;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        transform: translateY(-96%) skewY(-175deg);
+                        transform-origin: left;
+                        border-radius: 20px 20px 0 0;
+                        z-index: 1;
+                     }
+                  }
+
+                  li:last-child {
+                     padding-bottom: 11px;
+                  }
+
+                  li:first-child::before {
+                     height: 10px;
+                     border-radius: 7px 7px 0 0;
+                  }
+               }
+
+               .title_action_buttons {
+                  text-align: center;
+
+                  h1 {
+                     margin-left: 25px;
+                     @include text(18px, 300, $clr1);
+                     line-height: 30px;
+                     margin-top: 20px;
+                  }
+
+                  .montage_flex_block {
+                     margin: 3px 0 18px 20px;
+                     @include flex(center, center);
+
+                     img {
+                        @include size(37px, 6px);
+                        margin: 9.5px 0 6px 0;
+                     }
+
+                     .montage_flex_block_text {
+                        @include text(13px, 400, $clr1);
+                     }
+                  }
+               }
+
+               .action_buttons_flex_block {
+                  position: absolute;
+                  left: 0;
+                  top: 290px;
+                  display: block;
+
+                  .calculation_button {
+                     margin-bottom: 12px;
+                  }
+
+                  .calculation_button,
+                  .record_button {
+                     @include size(280px, 55px);
+                     @include text(10px, 600, $clr1);
+                     padding: 11px 18px;
+
+                     .text {
+                        text-align: center;
+                        line-height: 15px;
+                     }
+                  }
+               }
+
+               .about_questions {
+                  position: absolute;
+                  left: 0px;
+                  top: 215px;
+                  display: block;
+                  align-items: center;
+
+                  img {
+                     @include size(10px, 9px);
+                  }
+
+                  .about_questions_text {
+                     @include size(276px, 36px);
+                     @include text(12px, 400, $clr1);
+                     line-height: 16px;
+                     margin-right: 8px;
+                  }
+               }
+            }
+         }
+
+         .messengers_flex_block {
+            img {
+               @include size(14px, 14px);
+            }
+         }
+
+         .logo {
+            @include size(90px, 70px);
+            position: absolute;
+            top: 12px;
+            left: -15px;
+
+            img {
+               @include size(90px, 70px);
+            }
+         }
+
+         .inner .action_buttons_flex_block {
+
+            .calculation_button {
+               img {
+                  @include size(15px, 15px);
+                  margin-left: 12px;
+               }
+            }
+
+            .record_button {
+               img {
+                  @include size(15px, 15px);
+                  margin-left: 40px;
+               }
+            }
+         }
+      }
+
+      ////////////////////////////
+      .overflow {
+         .modal {
+            margin-top: 60px;
+            @include size(310px, 340px);
+            border-radius: 15px;
+            padding: 40px 0 53px 0;
+
+            .modal_container {
+               @include size(200px, 234px);
+               margin: 0 auto;
+
+               .modal_title {
+                  @include text(18px, 500, $clr1);
+                  line-height: 20px;
+                  margin-bottom: 6px;
+               }
+
+               .modal_text {
+                  @include text(8px, 400, $clr1);
+                  line-height: 16px;
+                  margin-bottom: 16px;
+               }
+
+               .modal_subtext {
+                  @include text(8px, 400, $clr1);
+                  line-height: 8px;
+                  margin-bottom: 16px;
+               }
+
+               .modal_text_tel {
+                  @include text(8px, 400, $clr1);
+                  line-height: 8px;
+                  margin-bottom: 10px;
+                  margin-left: 12px;
+               }
+
+               input {
+                  @include size(200px, 40px);
+                  box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+                  margin-bottom: 12px;
+                  @include text(12px, 400, center);
+                  line-height: 10px;
+               }
+
+               .modal_call {
+                  @include size(200px, 40px);
+                  padding: 0 45px;
+                  @include text(8px, 600, center);
+                  margin-bottom: 10px;
+
+                  img {
+                     @include size(16px, 16px);
+                  }
+               }
+
+               .modal_check {
+                  @include flex(center, center);
+
+                  input {
+                     @include size(12px, 12px);
+                     margin-top: 12px;
+                  }
+
+                  .modal_check_text {
+                     @include text(6px, 500, left);
+                     line-height: 10px;
+                     color: $clr1;
+                     margin-left: 12px;
+
+                     span {
+                        color: $clr3;
+                        font-weight: 500;
+                        cursor: pointer;
+                     }
+                  }
+               }
+
+               .err {
+                  @include text(6px, 500, center);
+                  color: red;
+                  display: none;
+               }
+
+               .close {
+                  @include size(10px, 10px);
+                  position: absolute;
+                  top: 25px;
+                  right: 27px;
+                  cursor: pointer;
+               }
+            }
+         }
+      }
+
+      //////////////////////
+      .modal_true {
+         @include size(200px, 80px);
+         border-radius: 25px;
+         padding: 30px 20px 53px 20px;
+         z-index: 100;
+
+         .madal_true_text {
+            line-height: 16px;
+            @include text(10px, 400, center);
+         }
+
+         .modal_true_close {
+            top: 16px;
+            right: 18px;
+            @include size(10px, 10px);
+         }
+      }
+   }
+}
